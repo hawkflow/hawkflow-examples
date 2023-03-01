@@ -11,4 +11,4 @@ try:
 except Exception as err:
     # catch and send exceptions through to hawkflow
     print("sending exception data to hawkflow")
-    hf.exception("hawkflow_examples", "your meta data", traceback.format_exc())
+    hf.exception("your_process_name", "your_meta_data", traceback.format_exc())

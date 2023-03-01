@@ -10,12 +10,12 @@ def hawkflow_examples_decorator_no_metadata():
 
 
 @HawkflowTimed(api_key="YOUR_API_KEY")
-def hawkflow_examples_decorator_with_metadata(hawkflow_meta="your meta data"):
+def hawkflow_examples_decorator_with_metadata(hawkflow_meta="your_meta_data"):
     # time this code, use the hawkflow_meta parameter to pass through any metadata
     time.sleep(5)
 
 
+# run
 hawkflow_examples_decorator_no_metadata()
-
-hawkflow_examples_decorator_with_metadata(hawkflow_meta="this is my metadata")
+hawkflow_examples_decorator_with_metadata(hawkflow_meta="your_meta_data")
 
