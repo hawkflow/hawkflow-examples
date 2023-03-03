@@ -11,4 +11,5 @@ my_metrics = {
 }
 
 print("sending metrics data to hawkflow")
-hf.metrics("hawkflow_examples", "your meta data", my_metrics)
+api_response = hf.metrics("hawkflow_examples", "your meta data", my_metrics)
+print(api_response)
