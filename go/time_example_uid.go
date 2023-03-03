@@ -21,7 +21,7 @@ func main() {
 	fmt.Println("Sending timing start data to hawkflow")
 	err := hf.Start("your_process_name_uid", "your_meta_data", uid.String())
 	if err != nil {
-		panic(err)
+		fmt.Println(err)
 	}
 
 	// Do some work
@@ -32,6 +32,6 @@ func main() {
 	fmt.Println("Sending timing end data to hawkflow")
 	err = hf.End("your_process_name_uid", "your_meta_data", uid.String())
 	if err != nil {
-		panic(err)
+		fmt.Println(err)
 	}
 }

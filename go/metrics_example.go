@@ -18,6 +18,6 @@ func main() {
 	fmt.Println("Sending metrics data to hawkflow")
 	err := hf.Metrics("hawkflow_examples", "your_meta_data", items)
 	if err != nil {
-		panic(err)
+		fmt.Println(err)
 	}
 }

@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// Authenticate with your API key
-	hf := hawkflow.New("YOUR_API_KEY")
+	hf := hawkflow.New("YOUR_API_KEY", hawkflow.OptionDebug(true))
 
 	err := fail()
 	if err != nil {
@@ -16,7 +16,7 @@ func main() {
 		fmt.Println("Sending error data to hawkflow")
 		err := hf.Exception("hawkflow_examples", "your_meta_data", err.Error())
 		if err != nil {
-			panic(err)
+			fmt.Println(err)
 		}
 	}
 }
