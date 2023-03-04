@@ -12,10 +12,7 @@ func main() {
 
 	// Start timing your code - pass through process (required) and meta (optional) parameters
 	fmt.Println("Sending timing start data to hawkflow")
-	err := hf.Start("hawkflow_examples", "your_meta_data", "")
-	if err != nil {
-		fmt.Println(err)
-	}
+	_ = hf.Start("hawkflow_examples", "", "")
 
 	// Do some work
 	fmt.Println("Sleeping for 5 seconds...")
@@ -23,8 +20,5 @@ func main() {
 
 	// End timing this piece of code - process (required) and meta (optional) parameters should match the start
 	fmt.Println("Sending timing end data to hawkflow")
-	err = hf.End("hawkflow_examples", "your_meta_data", "")
-	if err != nil {
-		fmt.Println(err)
-	}
+	_ = hf.End("hawkflow_examples", "", "")
 }

@@ -2,3 +2,5 @@ github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
 github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/hawkflow/hawkflow-go v1.0.2 h1:lHihseye5eQqYy7nh0/h/WJ+T65ZgTavkrCoAkEpfeA=
 github.com/hawkflow/hawkflow-go v1.0.2/go.mod h1:q0DiQ8YAqQ4n2SdbQhPKxDfA+oAbHMSb848/P+mls5k=
+github.com/hawkflow/hawkflow-go v1.0.3 h1:9u279xTmMrj0XL0tcPTCv/aoi15etYHe2NfiJUoDxGE=
+github.com/hawkflow/hawkflow-go v1.0.3/go.mod h1:q0DiQ8YAqQ4n2SdbQhPKxDfA+oAbHMSb848/P+mls5k=

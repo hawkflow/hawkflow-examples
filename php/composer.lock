@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f052155eae357a7aef2e6744cc793155",
+    "packages": [
+        {
+            "name": "hawkflow/hawkflow-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hawkflow/hawkflow-php.git",
+                "reference": "53a7c4d354eff943206a808c8f11f77de9af1bd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hawkflow/hawkflow-php/zipball/53a7c4d354eff943206a808c8f11f77de9af1bd1",
+                "reference": "53a7c4d354eff943206a808c8f11f77de9af1bd1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0 || ^7.0 || ^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HawkFlow\\HawkFlow\\": "src/"
+                },
+                "exclude-from-classmap": [
+                    "tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HawkFlow.ai",
+                    "homepage": "https://hawkflow.ai/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HawkFlow.ai",
+            "homepage": "https://hawkflow.ai/",
+            "keywords": [
+                "hawkflow",
+                "hawkflowclient",
+                "monitoring"
+            ],
+            "support": {
+                "docs": "https://docs.hawkflow.ai/",
+                "source": "https://github.com/hawkflow/hawkflow-php/tree/v1.0.0"
+            },
+            "time": "2023-03-04T23:03:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hawkflow/hawkflow-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

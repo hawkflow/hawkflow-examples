@@ -2,5 +2,10 @@
 
 # HawkFlow.ai - Go package
 
-- [HawkFlow.ai documentation](http://docs.hawkflow.ai/)
+Install go mod dependencies:
+```
+go mod download
+```
+
+- [HawkFlow.ai documentation](https://docs.hawkflow.ai/)
 - [HawkFlow.ai Go package](https://pkg.go.dev/github.com/hawkflow/hawkflow-go)

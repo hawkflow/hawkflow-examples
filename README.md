@@ -6,7 +6,7 @@
 
 This repo contains examples of how to use the different HawkFlow.ai features in various languages.
 
-Read the [HawkFlow.ai documentation](http://docs.hawkflow.ai/)
+Read the [HawkFlow.ai documentation](https://docs.hawkflow.ai/)
 
 ## What is HawkFlow.ai?
 

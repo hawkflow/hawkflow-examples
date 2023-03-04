@@ -1,16 +1,6 @@
-# Mac crap
-.DS_Store
-
-# Python
-py/
-*.py[co]
-
-# Go
-bin/
-
-# General
 !.gitkeep
 .idea
 *.tmp
+.DS_Store
 Desktop.ini
 Thumbs.db

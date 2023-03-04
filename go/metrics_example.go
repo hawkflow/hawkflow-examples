@@ -16,6 +16,7 @@ func main() {
 	}
 
 	fmt.Println("Sending metrics data to hawkflow")
+	// Processing the response is optional
 	err := hf.Metrics("hawkflow_examples", "your_meta_data", items)
 	if err != nil {
 		fmt.Println(err)

@@ -12,8 +12,9 @@ func main() {
 
 	err := fail()
 	if err != nil {
-		// catch and send errors through to hawkflow
+		// Catch and send errors through to hawkflow
 		fmt.Println("Sending error data to hawkflow")
+		// Processing the err is optional
 		err := hf.Exception("hawkflow_examples", "your_meta_data", err.Error())
 		if err != nil {
 			fmt.Println(err)
