@@ -2,9 +2,8 @@
 
 # HawkFlow.ai - NPM package
 
-Getting started: 
+Install dependencies: 
 ```
-npm init es6
 npm install --save hawkflow
 ```
 
