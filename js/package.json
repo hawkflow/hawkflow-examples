@@ -28,6 +28,6 @@
     "test": ""
   },
   "dependencies": {
-    "hawkflow": "^0.0.5"
+    "hawkflow": "*"
   }
 }

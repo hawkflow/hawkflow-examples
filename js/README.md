@@ -4,7 +4,7 @@
 
 Install dependencies: 
 ```
-npm install --save hawkflow
+npm install
 ```
 
 - [HawkFlow.ai documentation](https://docs.hawkflow.ai/)
